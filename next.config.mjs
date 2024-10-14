@@ -2,7 +2,10 @@
 
 const nextConfig = {
     experimental:{
-        ppr:'incremental'
+        ppr:'incremental',
+        serverActions: {
+            allowedOrigins: ["refactored-yodel-x4g4pg4rvvfv947-3000.app.github.dev", "localhost:3000"]
+          }
     }
 };
 
